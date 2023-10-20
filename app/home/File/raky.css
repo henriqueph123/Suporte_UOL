@@ -1,0 +1,72 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline
+}
+
+.demo .numbers{
+	background-color:#ffd;
+	border:1px solid #eec;
+	margin-bottom:32px;
+	padding:16px 20px
+}
+
+
+.cards li{
+	-webkit-transition:all .2s;
+	-moz-transition:all .2s;
+	-ms-transition:all .2s;
+	-o-transition:all .2s;
+	transition:all .2s;
+	background-image:url(crdx1.png);
+	background-position:0 0;
+	float:left;
+	height:22px;
+	margin-right: 6px;
+	text-indent:-9999px;
+	width:32px
+}
+
+.cards li:last-child{
+	margin-right:0
+}
+
+.cards .visa_electron{
+	background-position:128px 0
+}
+
+.cards .mastercard{
+	background-position:96px 0
+}
+
+.cards .amex{
+	background-position:64px 0
+}
+
+.cards .discover{
+	background-position:32px 0
+}
+
+.cards .visa.off{
+	background-position:0 22px
+}
+
+.cards .visa_electron.off{
+	background-position:128px 22px
+}
+
+.cards .mastercard.off{
+	background-position:96px 22px
+}
+
+.cards .amex.off{
+	background-position:64px 22px
+}
+
+.cards .discover.off{
+	background-position:32px 22px
+}
+
